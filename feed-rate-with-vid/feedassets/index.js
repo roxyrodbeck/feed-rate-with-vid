@@ -15,6 +15,10 @@ function reset() {
     mil.value = ""
     hour.value = "";
     milPerHour.value = "";
+
+    mil.style.color = "";
+    hour.style.color = "";
+    milPerHour.style.color= "";
 }
 
 document.getElementById("resetButton").addEventListener('click', reset)
